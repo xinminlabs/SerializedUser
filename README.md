@@ -33,7 +33,7 @@ SerializedUser adds a property.
 
 ## Example
 
-1. You should create your own user model and extend SerializedUser
+1\. You should create your own user model and extend SerializedUser
 
 ```
 #import "SerializedUser.h"
@@ -65,7 +65,7 @@ SerializedUser adds a property.
 @end
 ```
 
-2. Then you can persist user.
+2\. Then you can persist user.
 
 ```
 CLUser *user = [[CLUser alloc] init];
@@ -74,7 +74,7 @@ user.token = @"access_token";
 [user persist];
 ```
 
-3. And get current user.
+3\. And get current user.
 
 ```
 if ([CLUser isLoggedIn]) {
