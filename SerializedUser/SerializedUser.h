@@ -16,4 +16,6 @@
 + (BOOL)isLoggedIn;
 
 - (void)persist;
+- (void)clear;
+
 @end
