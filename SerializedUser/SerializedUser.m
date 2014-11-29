@@ -23,6 +23,10 @@
     [self persistWithToken:self.token];
 }
 
+- (void)clear {
+    [self persistWithToken:nil];
+}
+
 #pragma mark - Priviate Methods
 
 NSString *const DEFAULTS_KEY_USER = @"DeafultsKeyUser";
